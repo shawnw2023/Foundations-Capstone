@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Game Rating Codepen</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/102/102393.png" id="pixel" alt="Omega symbol">
+        </div>
+        <h1 class="slideInLeft">Omega Games</h1>
+        <!-- <nav>
+            <a href="addGame.html">Rate a Game</a>
+        </nav> -->
+    </header>
+    <main>
+
+    <form>
+         <input 
+            type="text"
+            id="title"
+            placeholder="What's the game's title?"/>
+        <input 
+             type="text"
+             id="img"
+             placeholder="Paste an image URL"/>
+        <section id="ratings-container">
+            <p>Rate the Game:</p>
+            <div id="radio-container">
+                <label for="one">
+                    <input 
+                    type="radio"
+                    name="ratings"
+                    value="1"
+                    id="one"/>
+                1
+                </label>
+                <label for="two">
+                    <input 
+                    type="radio"
+                    name="ratings"
+                    value="2"
+                    id="two"/>
+                2
+                </label>
+                <label for="three">
+                    <input 
+                    type="radio"
+                    name="ratings"
+                    value="3"
+                    id="three"/>
+                3
+                </label>
+                <label for="four">
+                    <input 
+                    type="radio"
+                    name="ratings"
+                    value="4"
+                    id="four"/>
+                4
+                </label>
+                <label for="five">
+                    <input 
+                    type="radio"
+                    name="ratings"
+                    value="5"
+                    id="five"/>
+                5
+                </label>
+            </div>
+        </section>
+        <button>add game</button>
+     </form>
+        
+    <section id="games-container"></section>
+    </main>
+        
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

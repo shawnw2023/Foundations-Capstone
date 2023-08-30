@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Mortal Kombat 1",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/5/5b/Mortal_Kombat_1_key_art.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Minecraft",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
+    },
+    {
+        "id": 3,
+        "title": "Grand Theft Auto 5",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
+    },
+    {
+        "id": 4,
+        "title": "The Witcher 3 Wild Hunt",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/220px-Witcher_3_cover_art.jpg"
+    },
+    {
+        "id": 5,
+        "title": "The Crew 2",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/2/2b/The_Crew_2_box_art.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Apex Legends",
+        "rating": 5,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Marvel Avengers",
+        "rating": 2,
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/en/c/c0/Avengers_2020_cover_art.png"
+    }
+]
